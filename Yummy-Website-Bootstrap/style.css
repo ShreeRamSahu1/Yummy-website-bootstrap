@@ -1,0 +1,70 @@
+.chef-box-common {
+    transition: all .3s ease;
+}
+
+.chef-box-common:hover {
+    scale: 1.1;
+}
+
+.social-links {
+    transition: all 0.5s ease;
+    transition-delay: 0.3s;
+    top: 30px;
+    right: -50px;
+}
+
+.chef-box-common:hover .social-links {
+    top: 30px;
+    right: 10px;
+}
+
+.menu-link a {
+    position: relative;
+    color: #817f8a;
+
+}
+
+.menu-link a:hover {
+    color: #36353a;
+}
+
+.menu-link a:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(227, 13, 13);
+    width: 0%;
+    height: 2px;
+    top: 100%;
+    transition: all .3s ease;
+}
+
+.menu-link a:hover:before {
+    content: "";
+    width: 100%;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySecondSwiper {
+    height:400px;
+}
